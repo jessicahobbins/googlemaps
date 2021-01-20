@@ -1,0 +1,47 @@
+/*Formatting page, zero margin for body*/
+body {
+    margin: 0;
+  }
+
+/* Formatting Title container */
+.titleblock {
+    padding: 30px;
+    text-align: center;
+    background-color: #3f626b!important;
+  }
+
+/* Formatting header1 */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff!important;
+    font-size:60px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Formatting map container */
+.sharkmap {
+    padding: 40px;
+    text-align: center;
+    color: #fff!important;
+    background-color: #3d3f42!important;
+    font-size: 18px;
+  }
+
+/* Formatting description container */
+.desc {
+    padding: 40px;
+    text-align: center;
+    color: #fff!important;
+    background-color: #3f626b!important;
+    font-size: 18px;
+  }
+
+/* Formatting paragraph */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff!important;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
