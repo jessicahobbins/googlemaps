@@ -3,7 +3,7 @@
 
 /* 100% height declaration indicates that the
 map, html and body container should take up 100% of the html body */
-#map1 {
+#map {
 height: 100%;
 }
 
