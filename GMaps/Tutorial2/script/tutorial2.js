@@ -1,9 +1,9 @@
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 6,
-      center: { lat: 46.69673002999349, lng: -81.50929499425965 },
+      center: { lat: 46.576207579688145, lng: -81.81416097942312 },
     });
-
+ 
     // Create an array of alphabetical characters used to label the markers.
     const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     // Add some markers to the map.
