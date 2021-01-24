@@ -45,7 +45,7 @@ function initMap() {
     { lat: -42.734358, lng: 147.501315 },
     { lat: -42.735258, lng: 147.438 },
     { lat: -43.999792, lng: 170.463352 },
-  ];
+  ]
   
 var markerCluster = new MarkerClusterer(map, markers,
     {imagePath: `${markers}/m`});
