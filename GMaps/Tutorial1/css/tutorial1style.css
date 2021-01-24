@@ -1,20 +1,15 @@
 body {
     margin: 0;
+    background-color: rgb(170, 218, 255);
   }
 
 /* Set the size of the div element that contains the map */
 #map {
-    height: 1200px;
+    height: 1000px;
     /* The height is 400 pixels */
     width: 100%;
     /* The width is the width of the web page */
   }
-
-.titleblock {
-padding: 30px;
-text-align: center;
-background-color: rgb(170, 218, 255);
-}
   
 h1 {
     font-family: Arial, Helvetica, sans-serif;
