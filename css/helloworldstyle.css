@@ -3,10 +3,17 @@
 
 /* 100% height declaration indicates that the
 map, html and body container should take up 100% of the html body */
-#map {
+#map1 {
 height: 100%;
 }
 
+#map2 {
+height: 100%;
+}
+
+#map3 {
+height: 100%;
+}
 /* Optional: Makes the sample page fill the window. */
 html,
 body {
