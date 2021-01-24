@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+  }
+
 /* Set the size of the div element that contains the map */
 #map {
     height: 1200px;
@@ -9,7 +13,7 @@
 .titleblock {
 padding: 30px;
 text-align: center;
-background-color: #8cfca4!important;
+background-color: #76be85!important;
 }
   
 h1 {
