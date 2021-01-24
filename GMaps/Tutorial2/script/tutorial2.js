@@ -1,6 +1,6 @@
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 3,
+      zoom: 6,
       center: { lat: 51.512695296183196, lng: -86.45254724796946 },
     });
 
@@ -16,7 +16,7 @@ function initMap() {
         label: labels[i % labels.length],
       });
     });
-    
+
     // Add a marker clusterer to manage the markers.
     new MarkerClusterer(map, markers, {
       imagePath:
