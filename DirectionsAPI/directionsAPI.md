@@ -1,6 +1,6 @@
 # **JSON Directions API**
 ## Directions from Peterborough City Hall to Fleming College Frost Campus
-###### https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJB-rd7ZSM1YkR--mMbjZpIyE&destination=place_id:ChIJq6p6ZumM1YkRwlenRs5y5SY&key=AIzaSyA5a1FoKmbmQ1djPh6pRx7oiknBf3ACNOE
+###### https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJB-rd7ZSM1YkR--mMbjZpIyE&destination=place_id:ChIJq6p6ZumM1YkRwlenRs5y5SY&key=AIzaSyBbX6WSBFcw8q7lEOTlHsK5HvQotMBtJQs
 
 ```
 {
