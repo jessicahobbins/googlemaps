@@ -48,4 +48,4 @@ function initMap() {
   ];
   
 var markerCluster = new MarkerClusterer(map, markers,
-    {imagePath: `${path}/m`});
+    {imagePath: `${markers}/m`});
