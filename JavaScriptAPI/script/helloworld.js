@@ -6,12 +6,11 @@ function initMap() {
     zoom: 6,
     mapTypeId: 'satellite'
   });
-}
-
-new MapLabel({
-  text: 'Lake Ontario',
-  position: new google.maps.LatLng(43.684027511300016, -77.81757779934962),
-  map: map,
-  fontSize: 35,
-  align: 'right'
+  mapLabel = new MapLabel({
+    text: 'Lake Ontario',
+    position: new google.maps.LatLng(43.684027511300016, -77.81757779934962),
+    map: map,
+    fontSize: 35,
+    align: 'right'
 });
+}
