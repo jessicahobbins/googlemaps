@@ -5,13 +5,12 @@ function initMap() {
     center: { lat: 45.019443088077814, lng: -84.16767493984362 },
     zoom: 6,
     mapTypeId: 'satellite'
-    
   });
 }
 
-var mapLabel = new MapLabel({
-  text: 'Test',
-  position: new google.maps.LatLng(34.515233, -100.918565),
+new MapLabel({
+  text: 'Lake Ontario',
+  position: new google.maps.LatLng(43.684027511300016, -77.81757779934962),
   map: map,
   fontSize: 35,
   align: 'right'
