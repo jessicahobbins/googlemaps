@@ -27,23 +27,21 @@
     /* Formatting map container */
     .mapbox1 {
         float:left;
-        padding: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
+    .mapbox2 {
+        float:left;
+
+    }
+
+    /* Container for page description */
     .descbox1 {
-        float: left;
-    }
-    /* .clear {
-        clear:both;
-    } */
-
-    /* Formatting description container */
-    /* .desc {
-        padding: 40px;
         text-align: center;
-        color: #fff !important;
-        background-color: rgb(62, 88, 63);
-    } */
+        padding: 10px;
+
+    }
 
     /* Formatting paragraph */
     p {
@@ -51,24 +49,30 @@
         color: #fff !important;
         font-size: 18px;
     }
+
 </style>
 
 <body>
 
-    <!--Title-->
+    <!-- Title -->
     <div class="titleblock">
         <h1>Wonders of Britain & Ireland</h1>
     </div>
 
+    <!-- Description of page theme -->
+    <div class="descbox1">
+        <p>In 2014, I went on a tour of Britain & Ireland with my family. We spent 15 days exploring England, Wales, Scotland & Ireland. The following maps outline the itinerary of our trip.</p>
+    </div>
+
+    <!-- Map of each country visited -->
     <div class="mapbox1">
         <iframe src="https://www.google.com/maps/d/embed?mid=1YyqIkoe4kgZp0YJM96Ofg6ZgrpDdi9GX" width="925" height="550"></iframe>
+    </div>
+
+    <!-- Map of time spent in London -->
+    <div class="mapbox2">
         <iframe src="https://www.google.com/maps/d/embed?mid=1MMnwozSZg2lOJXyNy1NDo9dg4Wt89kAp" width="925" height="550"></iframe>
     </div>
-
-    <div class="descbox">
-        <p>In 2014, I went on a tour of Britain & Ireland with my family. We spent 15 days exploring England, Wales, Scotland & Ireland.</p>
-    </div>
-
 
 </body>
 </html>
