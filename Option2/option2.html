@@ -5,7 +5,7 @@
     /*Formatting page, zero margin for body*/
     body {
         margin: 0;
-        background-color: rgb(48, 48, 48);
+        background-color: rgb(53, 53, 53);
     }
 
     /* Formatting title block */
@@ -36,6 +36,11 @@
 
     }
 
+    .mapbox3 {
+        text-align: center;
+        padding: 10px;
+    }
+
     /* Container for page description */
     .descbox1 {
         text-align: center;
@@ -47,7 +52,16 @@
     p {
         font-family: Arial, Helvetica, sans-serif;
         color: #fff !important;
-        font-size: 18px;
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    .mapdesc1 {
+        padding-left: 45px;
+    }
+
+    .mapdesc2 {
+        padding-left: 45px;
     }
 
 </style>
@@ -67,11 +81,21 @@
     <!-- Map of each country visited -->
     <div class="mapbox1">
         <iframe src="https://www.google.com/maps/d/embed?mid=1YyqIkoe4kgZp0YJM96Ofg6ZgrpDdi9GX" width="925" height="550"></iframe>
+        <div class="mapdesc">
+            <p>Our trip began in England, before departuring to Wales and then Ireland and finally Scotland, before returning back to England.</p> 
+        </div>
     </div>
 
     <!-- Map of time spent in London -->
     <div class="mapbox2">
         <iframe src="https://www.google.com/maps/d/embed?mid=1MMnwozSZg2lOJXyNy1NDo9dg4Wt89kAp" width="925" height="550"></iframe>
+        <div class="mapdesc">
+            <p>We departed Toronto Pearson Airport and arrived in London Hearthrow Airport.</p>
+        </div>
+    </div>
+
+    <div class="mapbox3">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1QKcdHmCsMmLuHqnSdxJs3YUNpNh9QBiQ" width="1500" height="700"></iframe>
     </div>
 
 </body>
