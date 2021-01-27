@@ -2,170 +2,171 @@
 <html lang="en">
 <title>Wonders of Britain & Ireland</title>
 <style>
-/*Formatting page, zero margin for body*/
-body {
-    margin: 0;
-    background-color: rgb(53, 53, 53);
-}
+    /*Formatting page, zero margin for body*/
+    body {
+        margin: 0;
+        background-color: rgb(53, 53, 53);
+    }
 
-/* Navbar container */
-.navbar {
-    overflow: hidden;
-    background-color:  rgb(53, 53, 53);
-    font-family: Arial;
-  }
-  
-  /* Links inside the navbar */
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* The dropdown container */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
-  
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(48, 48, 48);
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    font-weight: bold;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+    /* Navbar container */
+    .navbar {
+        overflow: hidden;
+        background-color: rgb(53, 53, 53);
+        font-family: Arial;
+    }
 
-/* Formatting title block */
-.titleblock {
-    padding: 20px;
-    text-align: center;
-    background-color: rgb(62, 88, 63);
-}
+    /* Links inside the navbar */
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
 
-/* Formatting header1 */
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    text-align: center;
-    margin: 10px;
-}
+    /* The dropdown container */
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
 
-/* Formatting map container */
-.mapbox1 {
-    float:left;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    /* Dropdown button */
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        /* Important for vertical align on mobile phones */
+        margin: 0;
+        /* Important for vertical align on mobile phones */
+    }
 
-.mapbox2 {
-    float:left;
-}
+    /* Add a red background color to navbar links on hover */
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: rgb(48, 48, 48);
+    }
 
-.mapbox3 {
-    text-align: center;
-    padding: 10px;
-}
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
 
-.mapbox4 {
-    float:left;
-    padding-left: 125px;
-    padding-right: 20px;
-}
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-weight: bold;
+    }
 
-.mapbox5 {
-    float:left;
-    padding-left: 20px;
-    padding-right: 125px;
-}
+    /* Add a grey background color to dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
 
-/* Container for page description */
-.descbox1 {
-    text-align: center;
-    padding: 10px;
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
 
-}
+    /* Formatting title block */
+    .titleblock {
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(62, 88, 63);
+    }
 
-/* Formatting paragraph */
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff !important;
-    font-size: 15px;
-    padding: 0px;
-}
+    /* Formatting header1 */
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        text-align: center;
+        margin: 10px;
+    }
 
-.mapdesc1 {
-    padding-left: 45px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff !important;
-    font-size: 15px;
-}
+    /* Formatting map container */
+    .mapbox1 {
+        float: left;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-.mapdesc2 {
-    padding-left: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff !important;
-    font-size: 15px;
-}
+    .mapbox2 {
+        float: left;
+    }
 
-.mapdesc3 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff !important;
-    font-size: 15px;
-}
+    .mapbox3 {
+        text-align: center;
+        padding: 10px;
+    }
 
+    .mapbox4 {
+        float: left;
+        padding-left: 125px;
+        padding-right: 20px;
+    }
 
+    .mapbox5 {
+        float: left;
+        padding-left: 20px;
+        padding-right: 125px;
+    }
+
+    /* Container for page description */
+    .descbox1 {
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    /* Formatting paragraph */
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff !important;
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    .mapdesc1 {
+        padding-left: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff !important;
+        font-size: 15px;
+    }
+
+    .mapdesc2 {
+        padding-left: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff !important;
+        font-size: 15px;
+    }
+
+    .mapdesc3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff !important;
+        font-size: 15px;
+    }
 </style>
 
 <body>
@@ -177,15 +178,17 @@ p {
         <a href="GMaps\Tutorial1\tutorial1.html" class="topbutton">Tutorial 1</a>
         <a href="GMaps\Tutorial2\tutorial2.html" class="topbutton">Tutorial 2</a>
         <div class="dropdown">
-          <button class="dropbtn">Tutorial 3
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="GMaps\Tutorial3\tutorial3a.html">Tutorial 3a</a>
-            <a href="GMaps\Tutorial3\tutorial3b.html">Tutorial 3b</a>
-            <a href="GMaps\Tutorial3\tutorial3c.html">Tutorial 3c</a></div></div>
-        <a href="Option2\option2.html" class="topbutton">Option 2</a>
+            <button class="dropbtn">Tutorial 3
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="GMaps\Tutorial3\tutorial3a.html">Tutorial 3a</a>
+                <a href="GMaps\Tutorial3\tutorial3b.html">Tutorial 3b</a>
+                <a href="GMaps\Tutorial3\tutorial3c.html">Tutorial 3c</a>
+            </div>
         </div>
+        <a href="Option2\option2.html" class="topbutton">Option 2</a>
+    </div>
 
     <!-- Title -->
     <div class="titleblock">
@@ -194,38 +197,48 @@ p {
 
     <!-- Description of page theme -->
     <div class="descbox1">
-        <p>In 2014, I went on a tour of Britain & Ireland with my family. We spent 15 days exploring England, Wales, Scotland & Ireland. The following maps outline the itinerary of our trip.</p>
+        <p>In 2014, I went on a tour of Britain & Ireland with my family. We spent 15 days exploring England, Wales,
+            Scotland & Ireland. The following maps outline the itinerary of our trip.</p>
     </div>
 
     <!-- Map of each country visited -->
     <div class="mapbox1">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1YyqIkoe4kgZp0YJM96Ofg6ZgrpDdi9GX" frameborder="0" width="925" height="550"></iframe>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1YyqIkoe4kgZp0YJM96Ofg6ZgrpDdi9GX" frameborder="0"
+            width="925" height="550"></iframe>
         <div class="mapdesc1">
-            Our trip began in England, before departuring to Wales, onto Ireland and finally Scotland, before returning back to England.
+            Our trip began in England, before departuring to Wales, onto Ireland and finally Scotland, before returning
+            back to England.
         </div>
     </div>
 
     <!-- Map of time spent in London -->
     <div class="mapbox2">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1MMnwozSZg2lOJXyNy1NDo9dg4Wt89kAp" frameborder="0" width="925" height="550"></iframe>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1MMnwozSZg2lOJXyNy1NDo9dg4Wt89kAp" frameborder="0"
+            width="925" height="550"></iframe>
         <div class="mapdesc2">
-            During our time in England, we spent many days in London and tried to take in as many highlights as possible.
+            During our time in England, we spent many days in London and tried to take in as many highlights as
+            possible.
         </div>
     </div>
-    
+
     <div class="mapbox3">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1QKcdHmCsMmLuHqnSdxJs3YUNpNh9QBiQ" frameborder="0" width="1500" height="700"></iframe>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1QKcdHmCsMmLuHqnSdxJs3YUNpNh9QBiQ" frameborder="0"
+            width="1500" height="700"></iframe>
         <div class="mapdesc3">
             The map above displays all of the stops that we made during our 15 days abroad.
         </div>
     </div>
 
     <div class="mapbox4">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d538.8280283857603!2d-3.183646678322006!3d55.93220951613305!2m3!1f30.945558739255052!2f75.86745949871847!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x4887b884112f22b9%3A0x218a466c41934cf0!2sArthur&#39;s%20Seat!5e1!3m2!1sen!2sca!4v1611778667957!5m2!1sen!2sca" width="400" height="450" frameborder="0"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d538.8280283857603!2d-3.183646678322006!3d55.93220951613305!2m3!1f30.945558739255052!2f75.86745949871847!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x4887b884112f22b9%3A0x218a466c41934cf0!2sArthur&#39;s%20Seat!5e1!3m2!1sen!2sca!4v1611778667957!5m2!1sen!2sca"
+            width="400" height="450" frameborder="0"></iframe>
     </div>
 
     <div class="mapbox5">
-        <iframe src="https://www.google.com/maps/embed?pb=!4v1611774700256!6m8!1m7!1sCAoSLEFGMVFpcE95M1FNRFUtbTlWWVZ4MVJlNW4xcEZITzVUMjlaOWdmSXY2d3Iz!2m2!1d55.9441016!2d-3.1618441!3f62.88743515205235!4f3.0301728324829327!5f0.7820865974627469" width="1200" height="450" frameborder="0"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!4v1611774700256!6m8!1m7!1sCAoSLEFGMVFpcE95M1FNRFUtbTlWWVZ4MVJlNW4xcEZITzVUMjlaOWdmSXY2d3Iz!2m2!1d55.9441016!2d-3.1618441!3f62.88743515205235!4f3.0301728324829327!5f0.7820865974627469"
+            width="1200" height="450" frameborder="0"></iframe>
     </div>
 
     <div class="mapdesc3">
@@ -233,4 +246,5 @@ p {
     </div>
 
 </body>
+
 </html>
