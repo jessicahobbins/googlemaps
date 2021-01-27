@@ -2,102 +2,190 @@
 <html lang="en">
 <title>Wonders of Britain & Ireland</title>
 <style>
-    /*Formatting page, zero margin for body*/
-    body {
-        margin: 0;
-        background-color: rgb(53, 53, 53);
-    }
+/*Formatting page, zero margin for body*/
+body {
+    margin: 0;
+    background-color: rgb(53, 53, 53);
+}
 
-    /* Formatting title block */
-    .titleblock {
-        padding: 20px;
-        text-align: center;
-        background-color: rgb(62, 88, 63);
-    }
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color:  rgb(53, 53, 53);
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(48, 48, 48);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
-    /* Formatting header1 */
-    h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(255, 255, 255);
-        font-size: 40px;
-        text-align: center;
-        margin: 10px;
-    }
+/* Formatting title block */
+.titleblock {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(62, 88, 63);
+}
 
-    /* Formatting map container */
-    .mapbox1 {
-        float:left;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+/* Formatting header1 */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+}
 
-    .mapbox2 {
-        float:left;
-    }
+/* Formatting map container */
+.mapbox1 {
+    float:left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
-    .mapbox3 {
-        text-align: center;
-        padding: 10px;
-    }
+.mapbox2 {
+    float:left;
+}
 
-    .mapbox4 {
-        float:left;
-        padding-left: 125px;
-        padding-right: 20px;
-    }
+.mapbox3 {
+    text-align: center;
+    padding: 10px;
+}
 
-    .mapbox5 {
-        float:left;
-        padding-left: 20px;
-        padding-right: 125px;
-    }
+.mapbox4 {
+    float:left;
+    padding-left: 125px;
+    padding-right: 20px;
+}
 
-    /* Container for page description */
-    .descbox1 {
-        text-align: center;
-        padding: 10px;
+.mapbox5 {
+    float:left;
+    padding-left: 20px;
+    padding-right: 125px;
+}
 
-    }
+/* Container for page description */
+.descbox1 {
+    text-align: center;
+    padding: 10px;
 
-    /* Formatting paragraph */
-    p {
-        font-family: Arial, Helvetica, sans-serif;
-        color: #fff !important;
-        font-size: 15px;
-        padding: 0px;
-    }
+}
 
-    .mapdesc1 {
-        padding-left: 45px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #fff !important;
-        font-size: 15px;
-    }
+/* Formatting paragraph */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff !important;
+    font-size: 15px;
+    padding: 0px;
+}
 
-    .mapdesc2 {
-        padding-left: 100px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #fff !important;
-        font-size: 15px;
-    }
+.mapdesc1 {
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff !important;
+    font-size: 15px;
+}
 
-    .mapdesc3 {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #fff !important;
-        font-size: 15px;
-    }
+.mapdesc2 {
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff !important;
+    font-size: 15px;
+}
+
+.mapdesc3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff !important;
+    font-size: 15px;
+}
 
 
 </style>
 
 <body>
+    <div class="navbar">
+        <a href="MyMaps\mymapssharkspotter.html" class="topbutton homebutton">MyMaps SharkSpotter</a>
+        <a href="JavaScriptAPI\helloworld.html" class="topbutton">JavaScript API Hello World</a>
+        <a href="DirectionsAPI\directionsAPI.md" class="topbutton">Directions API</a>
+        <a href="PlacesAPI\placesAPI.md" class="topbutton">Places API</a>
+        <a href="GMaps\Tutorial1\tutorial1.html" class="topbutton">Tutorial 1</a>
+        <a href="GMaps\Tutorial2\tutorial2.html" class="topbutton">Tutorial 2</a>
+        <div class="dropdown">
+          <button class="dropbtn">Tutorial 3
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="GMaps\Tutorial3\tutorial3a.html">Tutorial 3a</a>
+            <a href="GMaps\Tutorial3\tutorial3b.html">Tutorial 3b</a>
+            <a href="GMaps\Tutorial3\tutorial3c.html">Tutorial 3c</a></div></div>
+        <a href="Option2\option2.html" class="topbutton">Option 2</a>
+        </div>
 
     <!-- Title -->
     <div class="titleblock">
